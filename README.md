@@ -9,7 +9,9 @@ Following the UNIX Design, doing only 1 thing, doing it well, the goal of this p
 Once the VM is created, you can boostrap this VM against your Uyuni-Server. (this is outside the scope of this project)
 
 
-# Howto:
+# USER Documentation
+
+## Howto:
 
 If you have terraform and terraform-libvirt-plugin already installed, after cloning this project do:
 
@@ -40,5 +42,9 @@ And you will have an Ubuntu Instance with openSUSE salt-pkgs.
 With the VM and the ip of your Ubuntu Server, you can then boostrap the minion against uyuni server ( via gui or CLI). 
 This is out of scope of this project.
 
-
 ![boostrap](design_doc/boostrap.jpg)
+
+
+# Developer Documentation:
+
+At moment this is under development.
